@@ -1,0 +1,9 @@
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.AssemblyInfo.cs
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.RazorAssemblyInfo.cache
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.RazorAssemblyInfo.cs
+C:\Users\PC\Documents\Phát Triển Phần Mềm Quản Lý\ptpmql\new_project_mvc\obj\Debug\net9.0\New_ProJect_MVC.sourcelink.json
