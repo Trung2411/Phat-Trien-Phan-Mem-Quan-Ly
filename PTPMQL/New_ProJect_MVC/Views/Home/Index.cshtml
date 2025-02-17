@@ -1,12 +1,8 @@
 ﻿@{
-    Viewdata["Tiêu Đề"] = "Home Page";
-
+    ViewData["Title"] = "Home Page";
 }
-<form asp-action="Index">
-    <label>Nhập Chiều Cao:</label>
-    <input type="text" name="Chieu Cao">
-    <label>Nhập Cân Nặng:</label>
-    <input type="text" name="Can Nang">
-    <input type="submit" value="Gửi Dữ Liệu">
-</form>
-<h1>@ViewBag.Message</h1>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

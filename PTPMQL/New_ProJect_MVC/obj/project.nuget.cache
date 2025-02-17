@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QtIt+DptAZc=",
+  "dgSpecHash": "Qoxijc+RcVY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\ptpmql\\new_project_mvc\\New_ProJect_MVC.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

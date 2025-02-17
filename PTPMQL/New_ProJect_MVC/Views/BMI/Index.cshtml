@@ -1,12 +1,7 @@
-@{
-    Viewdata["Tiêu Đề"] = "Home Page";
-
-}
 <form asp-action="Index">
-    <label>Nhập Chiều Cao:</label>
-    <input type="text" name="Chieu Cao">
-    <label>Nhập Cân Nặng:</label>
-    <input type="text" name="Can Nang">
-    <input type="submit" value="Gửi Dữ Liệu">
+    <input type="text" name="FullName" placeholder="Ten">
+    <input type="text" name="ChieuCao" placeholder="M">
+    <input type="text" name="cannang" placeholder="Kg">
+    <input type="submit"> 
+    <h1>@ViewBag.message </h1>
 </form>
-<h1>@ViewBag.Message</h1>
