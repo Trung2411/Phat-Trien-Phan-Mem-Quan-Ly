@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using New_ProJect_MVC.Data;
+using Microsoft.Extensions.DependencyInjection;
+using Demo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DemoContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DemoContext") ?? throw new InvalidOperationException("Connection string 'DemoContext' not found.")));
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
 
