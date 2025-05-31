@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj": {}
+    "D:\\PTPMQL\\Phat-Trien-Phan-Mem-Quan-Ly\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj": {
+    "D:\\PTPMQL\\Phat-Trien-Phan-Mem-Quan-Ly\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj",
+        "projectUniqueName": "D:\\PTPMQL\\Phat-Trien-Phan-Mem-Quan-Ly\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj",
         "projectName": "New_ProJect_MVC",
-        "projectPath": "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Phát Triển Phần Mềm Quản Lý\\PTPMQL\\New_ProJect_MVC\\obj\\",
+        "projectPath": "D:\\PTPMQL\\Phat-Trien-Phan-Mem-Quan-Ly\\PTPMQL\\New_ProJect_MVC\\New_ProJect_MVC.csproj",
+        "packagesPath": "C:\\Users\\trung\\.nuget\\packages\\",
+        "outputPath": "D:\\PTPMQL\\Phat-Trien-Phan-Mem-Quan-Ly\\PTPMQL\\New_ProJect_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\trung\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,17 +38,29 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
@@ -88,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

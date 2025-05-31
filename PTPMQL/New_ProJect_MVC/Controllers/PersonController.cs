@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Demo.Data;
+using New_ProJect_MVC.Data;
 using New_ProJect_MVC.Models;
 
 namespace New_ProJect_MVC.Controllers
 {
     public class PersonController : Controller
     {
-        private readonly DemoContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public PersonController(DemoContext context)
+        public PersonController(ApplicationDbContext context)
         {
             _context = context;
         }
